@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bektas Sari - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Bektas Sari</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link"><i class="bx bx-home"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="bx bx-user"></i> About</a></li>
+                    <li><a href="#portfolio" class="nav-link"><i class="bx bx-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="bx bx-message-detail"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Hello! I'm Bektas Sari, a passionate developer creating innovative digital solutions.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="bx bxl-github"></i></a>
+                    <a href="#" class="social-icon"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="bx bxl-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate software developer with expertise in web technologies. My goal is to create 
+                        meaningful and impactful digital experiences that solve real-world problems.</p>
+                        <p>Skills: HTML, CSS, JavaScript, React, Node.js</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Project 1</h3>
+                        <p>A responsive web application built with modern technologies.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 2</h3>
+                        <p>An innovative solution solving a unique problem.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 3</h3>
+                        <p>A data-driven application with complex functionality.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Bektas - 2025. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top"><i class="bx bx-up-arrow-alt"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
