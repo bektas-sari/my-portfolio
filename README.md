@@ -41,11 +41,9 @@ git clone https://github.com/bektas-sari/my-portfolio.git
 
 ## 📧 Contact
 - Email: bektas.sari@example.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
 
 ## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License]
 
 ---
 
